@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <hr>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
+    <p>Nessa frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
+    
+    <h2>Itálico / Ênfase</h2>
+    <p>Aqui temos um <i> termo em itálico</i> usando a Tag I (não semântica).</p>
+    <p>Já aqui temos um <em> termo em enfâse</em> usando a tag EM (semântica). </p>
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também um <mark style="background-color:aquamarine;">texto marcado</mark> usando a tag MARK.</p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto excluído</del> para indicar que ele deve ser lido, mas não considerado, utilizando a tag DEL.</p>
+
+    <h2>Texto inserido</h2>
+    <p>Também podemos marcar um <ins>texto como inserido</ins> para indicar que ele foi adicionado depois, utilizando a tag INS.</p>
+
+    <h2>Extras</h2>
+    <p>Temos a formatação para texto sobrescrito e subescrito, respectivamente, coisas como x<sup>20</sup> + 3 e coisas como H <sub>2</sub>O</p>
+
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <p>Também podemos colocar o código formatado com identação, utilizando a tag PRE com a tag CODE:</p>
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f 'O número (num) é PAR')
+            else:
+                printf(f 'O número (num) é ÍMPAR')
+            print('Fim do programa')        
+        </code>
+    </pre>
+
+    <h1>Outras formatações</h1>
+    <hr>
+    
+    <h2>Citações simples</h2>
+    <p>Como dizia o filósofo python, <q>o homem busca a felicidade nas coisas simples</q>.</p>
+
+    <h2>Citações completas</h2>
+    <p>Segundo Felippe Alex no seu livro "Fundamentos de CSS":</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_CSS_criando_design_para_s/04cbCgAAQBAJ?hl=en&gbpv=1&dq=css&printsec=frontcover">
+        Em alguns cenários, a demanda por especificidade pode ser ainda maior. É comum, em uma página HTML, existirem elementos que não se repetem e que possuem um identificador único.
+    </blockquote>
+    
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou amando!</p>
+
+</body>
+</html>

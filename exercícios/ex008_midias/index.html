@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"/>
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/bye-bye-mewing_fMVssQz.mp3" type="audio/mpeg">
+        <source src="midia/bye-bye-mewing_fMVssQz.ogg" type="audio/ogg">
+        <source src="midia/bye-bye-mewing_fMVssQz.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+        <a href="midia/bye-bye-mewing_fMVssQz.mp3"> Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+
+    <h1>Reproduzindo Vídeos localmente</h1>
+    <p>Vamos aprender a reproduzir vídeos hospedados localmente em HTML5</p>
+    <video preload="metadata" poster="imagens/thumb-video.png" controls autoplay loop width="560px">
+        <source src="midia/pexels-nathan-j-hilton-11890528 (1080p).mp4" type="video/mp4">
+        <source src="midia/pexels-nathan-j-hilton-11890528 (1080p).m4v" type="video/mp4">
+        <source src="midia/pexels-nathan-j-hilton-11890528 (1080p).webm" type="video/webm">
+        <source src="midia/pexels-nathan-j-hilton-11890528 (1080p).ogv" type="video/ogv">
+        <p>Infelizmente seu navegador não consegue reproduzir vídeo.</p>
+        <a href="midia/pexels-nathan-j-hilton-11890528 (1080p).mp4"> Clique aqui para baixar o arquivo MP4</a>
+    </video>
+
+    <h1>Reproduzindo Vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9wZY6YmEH8E?si=9PdS6LSYRRzyoVoq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Reproduzindo Vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/556525709?h=6b7cc3efc5&color=ff9933&portrait=0" width="540" height="540" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

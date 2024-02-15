@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id, em CSS é #
+    Em HTML é class, em CSS é .
+
+    id (Parâmetro de identificação único)
+    class (Parâmetro de identificação múltiplo)
+
+    É possível colocar mais de uma classe a um elemento
+
+    Hierarquia: 1º GENÉRICO
+                2º ID
+                3º CLASS
+*/
+
+body {
+    background-color: #868686;
+}
+
+h1 {
+    color: #161819;
+    
+}
+
+h1#principal {
+    text-align: center;
+    color: #b6b6b6;
+    background-color: #161819;
+}
+
+h2 {
+    color: #003052;
+}
+
+.basico {
+    color: #006dbb;
+}
+
+.inter {
+    color: #005999;
+}
+
+.avancado {
+    color: #1D2429;
+}
